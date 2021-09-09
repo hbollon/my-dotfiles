@@ -287,6 +287,9 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
+# i3gutter script
+bindsym $mod+g exec --no-startup-id ~/.config/i3/i3gutter.sh
+
 # Dual Kawase blur effect using picom
 exec --no-startup-id picom --experimental-backends -b
 
