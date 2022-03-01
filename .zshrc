@@ -23,6 +23,8 @@ alias ip='ip -c'
 alias rm='rm -i'
 alias x='ranger'
 alias h='htop'
+alias pc='sudo pacman -Rns $(pacman -Qtdq)'
+alias pcc='sudo pacman -Sc'
 
 setopt COMPLETE_ALIASES
 setopt HIST_FIND_NO_DUPS
